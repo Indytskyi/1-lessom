@@ -1,13 +1,13 @@
 "use strict";
 
 
-//4 lesson
+// 4 lesson
 // let number=5;
 // let NUmber=6;
 // const leftBorderWidgth=1;
-// number=10;
-// console.log(number);
-// const obj={
+//  number=10;
+//  console.log(number);
+//  const obj={
 //     a:50
 // };
 // obj.a=10;
@@ -62,26 +62,34 @@
 
 //9 lesson
 //унврный плюс - это плюс котроый ставится перед чем-то 
-console.log('arr' + '- object');
-console.log(4 + +'5');
+// console.log('arr' + '- object');
+// console.log(4 + +'5');
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-// incr++;
-// --decr;
-console.log(++incr);//11
-console.log(--decr);//9
-console.log(incr++);//10
-console.log(decr--);//10
+// // incr++;
+// // --decr;
+// console.log(++incr);//11
+// console.log(--decr);//9
+// console.log(incr++);//10
+// console.log(decr--);//10
 
-console.log(5%2);
+// console.log(5%2);
 
-console.log(2 + 2 * 2 != 8);
-console.log(2*4 === '8');
+// console.log(2 + 2 * 2 != 8);
+// console.log(2*4 === '8');
 
-const isChecked=true,
-isClose=false;
+// const isChecked=true,
+// isClose=false;
 
-console.log(isChecked && isClose);
-console.log(isChecked || isClose);
+// console.log(isChecked && isClose);
+// console.log(isChecked || isClose);
+
+//
+
+
+
+
+
+
