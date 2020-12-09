@@ -284,11 +284,11 @@
 //     if(typeof(options[key])==='object') {
 //         for(let i in options[key]) {
 //             console.log(`Свойства ${i} имеет значение ${options[key][i]}`);
-      
+
 //         }
 //     } else {
 //     console.log(`Свойства ${key} имеет значение ${options[key]}`);
-    
+
 //     }
 // }
 // for (let key in options) {
@@ -296,3 +296,46 @@
 // }
 
 // console.log(counter);
+
+
+
+//21 lesson
+//  Массивы и псевдомассивы
+
+// const arr = [1, 22, 11, 4, 5];
+//   arr.sort(comapareNum);
+//   console.log(arr);
+
+
+// function comapareNum(a,b) {
+//     return a-b;
+// }
+
+// arr[99] = 0;
+// console.log(arr.length);
+// console.log(arr);
+
+// arr.forEach(function(item, i, arr) {
+//     console.log(`${i}: ${item} внутри массива ${arr}`);
+// });
+// arr.pop();
+// arr.push(10);
+
+// console.log(arr);
+
+// // for (let i = 0; i < arr.length; i++) {
+// //     console.log(arr[i]);
+// // }
+
+// for(let value of arr) {
+//     console.log(value);
+// }
+
+// const str = prompt('', '');
+// const products = str.split(', ');
+
+// //console.log(products);
+// products.sort();
+
+// console.log(products.join('; '));
+
