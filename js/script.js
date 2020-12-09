@@ -224,3 +224,75 @@
 // const test='12.2px';
 // console.log(parseInt(test));
 // console.log(parseFloat(test));
+
+
+
+//19 lesson
+//callback функции
+// function first() {
+//     //Do something
+//     setTimeout(function() {
+//         console.log(1);
+//     },500);
+// }
+
+// function second() {
+//     console.log(2);
+// }
+
+// first();
+// second();
+
+// function learnJS(lang, callback) {
+//     console.log(`Я учу : ${lang}`);
+//     callback();
+// }
+
+// function done() {
+//     console.log('Я прошел этот урок');
+// }
+
+// learnJS('JavaScript', done);
+
+//20 lesson
+//Обьекты диструктуризицая обьектов 
+
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'black',
+//         background: 'red'
+//     },
+//     makeTest: function() {
+//         console.log('Test');
+//     }
+// };
+
+// console.log(Object.keys(options).length);
+// options.makeTest();
+
+// const {border, background} = options.colors;
+// console.log(border);
+// console.log(options.name);
+
+// // delete options.name;
+// // console.log(options);
+// let counter= 0;
+// for (let key in options) {
+//     if(typeof(options[key])==='object') {
+//         for(let i in options[key]) {
+//             console.log(`Свойства ${i} имеет значение ${options[key][i]}`);
+      
+//         }
+//     } else {
+//     console.log(`Свойства ${key} имеет значение ${options[key]}`);
+    
+//     }
+// }
+// for (let key in options) {
+//     counter++;
+// }
+
+// console.log(counter);
