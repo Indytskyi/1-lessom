@@ -436,3 +436,119 @@
 // };
 
 // const newQ = {...q};
+// console.log(newQ);
+
+// lesson 23
+// Основы ООП, прототипное- ориентированое наследование
+
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function() {
+//         console.log('Hello!');
+//     }
+
+// };
+
+// const john=Object.create(soldier);
+
+// // const john = {
+// //     health: 100
+
+// // };
+
+// // // john.__proto__ = soldier;
+
+// // Object.setPrototypeOf(john, soldier);
+
+// john.sayHello();
+
+// lesson 26
+// Динамическая типизация
+
+//To String
+
+// //1)
+// console.log(typeof(String(null)));
+// console.log(typeof(String(4)));
+
+
+// // 2)
+// console.log(typeof(5+''));
+
+// const num = 5;
+
+// console.log('https://vk.com/catalog/' + num);
+
+// const fontSize = 26 + 'px';
+
+// // To Number 
+
+// // 1)
+// console.log(typeof(Number('4')));
+
+// // 2)
+// console.log(typeof(+'5'));
+
+// // 3)
+// console.log(typeof(parseInt('15px', 10)));
+
+
+// let answer = +prompt('Hello', '');
+
+// //To boolean
+
+// let switcher =  null;
+
+// if (switcher) {
+//     console.log('Working.....');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('Working.....');
+// }
+
+// // 2)
+// console.log(typeof(Boolean('4')));
+
+// // 3)
+// console.log(typeof(!!'4444'));
+
+// lesson 27
+// Задачи с собеседования на понимания основ
+// let x=5;
+// console.log(x++); //5
+
+//[]+false-null+true
+// console.log(typeof([]+false)); // string "false"
+// console.log([]+false-null+true); //NaN
+
+// let y=1;
+// let x=y=2;
+// console.log(x);//2
+
+// console.log([]+1+2); //12
+
+// console.log("1"[0]);//1
+
+// console.log(2 && 1  && null  && 0 &&  undefined);// null
+// // && запинается на лжи
+// // или запинается на правде
+// console.log(null || 2 && 3 || 4 ); //3
+
+// let a = [1,2,3];
+// let b = [1,2,3];
+// console.log(a == b);
+
+// console.log(+'Infinity'); //Infinity
+
+// console.log("Ежик" > "яблоко"); // false
+
+// console.log(0 || "" || 2|| undefined || true || false); //2
+// 0 - в логическом контексте это false 
+// "" - в логическом контексте это false 
+// null - в логическом контексте это false 
+// underfined -  в логическом контексте это false 
+// Infinity - в логическом контексте это true
